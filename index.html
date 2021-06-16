@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avishek cricket club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: cursive;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/bgiii.jpg');
+            color: honeydew;
+
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 24px;
+            top: 24px;
+
+        }
+
+        .left img {
+            width: 75px;
+
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .mid {
+            /* border: 2px solid yellow; */
+            display: block;
+            width: 800px;
+            margin: 24px auto;
+
+
+        }
+
+        .right {
+            /* border: 2px solid greenyellow; */
+            display: inline-block;
+            position: absolute;
+            right: 24px;
+            top: 24px;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            padding: 15px 28px;
+            color: white;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            text-decoration: underline;
+            color: rosybrown;
+
+        }
+
+        .btn {
+            border: 2px solid rgb(12, 17, 2);
+            border-radius: 10px;
+            background-color: grey;
+            padding: 4px;
+            margin: 2px 10px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: ghostwhite;
+        }
+
+        .container {
+            border: 6px solid rgb(95, 92, 92);
+            border-radius: 14px;
+
+            margin: 225px 280px;
+            width: 33%;
+            padding-left: 40px;
+
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .grpinfo input {
+            font-family: cursive;
+            text-align: center;
+            display: block;
+            width: 508px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 14px;
+        }
+
+        .container button {
+            display: block;
+            width: 74%;
+            margin: 20px auto;
+            cursor: pointer;
+        }
+    </style>
+
+
+</head>
+
+
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/avi.png" alt="">
+            <div> Avishek club</div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Performance</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">call us</button> <button class="btn">email</button>
+
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join the best cricket club now</h1>
+        <form action="noaction.php">
+            <div class="grpinfo">
+                <input type="text" name="" placeholder="enter the name">
+
+            </div>
+            <div class="grpinfo">
+                <input type="text" placeholder="enter the age">
+
+            </div>
+            <div class="grpinfo">
+                <input type="text" placeholder="enter the contact NO">
+
+            </div>
+            <div class="grpinfo">
+                <input type="text" placeholder="enter the address">
+
+            </div>
+            <button class="btn">submit</button>
+        </form>
+
+
+
+    </div>
+
+</body>
+
+</html>
